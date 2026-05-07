@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Me</title>
+
+<style>
+body {
+    background: linear-gradient(to right, #ff9a9e, #fecfef, #fcb69f);
+    font-family: Georgia, 'Times New Roman', serif;
+    margin: 0;
+    color: white;
+}
+
+/* NAVBAR */
+header{
+    background:#111;
+    padding:15px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:18px;
+    font-weight:bold;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    margin-left:20px;
+    font-size:14px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#ff69b4;
+}
+
+/* HERO SECTION */
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    padding:50px 20px;
+}
+
+/* PROFILE CARDS CONTAINER */
+.profile-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 900px;
+}
+
+/* HEADINGS */
+.profile-cards h1, .profile-cards h2{
+    width:100%;
+    text-align:center;
+    margin-bottom:20px;
+    text-shadow: 0 0 10px rgba(255,105,180,0.8);
+}
+
+/* CARD STYLE */
+.card{
+    background: rgba(255,255,255,0.15);
+    padding: 15px 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255,105,180,0.4);
+    width: 250px;
+    text-align:center;
+    transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.card:hover{
+    transform: translateY(-5px) scale(1.05);
+    background: rgba(255,255,255,0.3);
+}
+
+/* CARD STYLE FIXED */
+.card{
+    background: rgba(255,255,255,0.35); /* dating 0.15 -> mas visible */
+    padding: 15px 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255,105,180,0.5);
+    width: 250px;
+    text-align:center;
+    transition: 0.3s;
+    color: #000; /* gawing black text para siguradong makita */
+}
+
+/* RESPONSIVE */
+@media(max-width:600px){
+    .card{
+        width: 80%;
+    }
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1><a href="webpage.html"></a>HANA DIARY</div>
+    </a></h1>
+     <nav>
+        <a href="INDEX.html">Home</a>
+        <a href="ABOUT.html">About</a>
+        <a href="GALLERY.html">Gallery</a>
+        <a href="CONTACT.html">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="profile-cards">
+
+        <h2>About Me</h2>
+
+        <div class="card">Hi! I am Hana Rezibel B. Matin-ao</div>
+        <div class="card">I'm 21 years old, an IT student from CSTA</div>
+        <div class="card">Currently a second year college student</div>
+        <div class="card">Taking Bachelor of Science in Information Technology</div>
+        <div class="card">Learning how to code, design, and think creatively</div>
+        <div class="card">I like discovering new things every day</div>
+        <div class="card">Feminine girl who loves pink 💗</div>
+        <div class="card">The strong "ate" of the family</div>
+        <div class="card">I love dancing</div>
+        <div class="card">Enjoys reading Wattpad</div>
+        <div class="card">Listening to music is my happy pill 🎧</div>
+        <div class="card">K-pop fan since teenage years</div>
+        <div class="card">She's a girl who oves peaceful nature and the sea 🌊</div>
+        <div class="card">Comfort food: ramen 🍜</div>
+
+    </div>
+</section>
+</body>
+</html> 
